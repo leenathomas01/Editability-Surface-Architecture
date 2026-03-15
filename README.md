@@ -3,7 +3,9 @@ _**Note:**_ This document records a structural hypothesis, not a framework.
 # Editability Surface Architecture
 
 **Status:** Speculative concept note - unvalidated architectural hypothesis
-**Origin:** Multi-AI exploratory conversation, March 2026  
+
+**Origin:** Multi-AI exploratory conversation, March 2026
+
 **Purpose:** Park a structural idea before it gets lost in chat logs
 
 ---
