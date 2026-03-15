@@ -1,6 +1,10 @@
 _**Note:**_ This document records a structural hypothesis, not a framework.
 
+
 # Editability Surface Architecture
+
+![Editability Surface](editability-surface-architecture.png)
+
 
 **Status:** Speculative concept note - unvalidated architectural hypothesis
 
