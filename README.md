@@ -194,4 +194,72 @@ This document captures an idea at an early stage so it doesn't get lost. It is n
 
 ---
 
+## Extension: Adaptive State Streaming Interpretation
+
+A separate exploratory thread produced a control-oriented model (Q-ODTI) that can be interpreted through this architecture.
+
+Stripped of metaphor, the model describes:
+
+- State streams subject to instability (noise / drift)
+- Continuous monitoring and correction
+- Adaptive path selection under constraint
+- Feedback-regulated evolution of system state
+
+### Mapping to Current Framework
+
+This maps onto the current framework as follows:
+
+| Component | Current Model | Q-ODTI Interpretation |
+|-----------|---------------|----------------------|
+| Substrate | Perception + actuation + persistence + update channel + safety | Physical / computational system maintaining state |
+| Asymmetry | Directional bias breaking neutrality | Incoming orientation (policy, bias, instruction stream) |
+| Constraint | Boundaries the trajectory interacts with | System limits (hardware, safety, environment) |
+| Time | Accumulation, change, and process | Execution over successive state transitions |
+| Damped coupling | Feedback from trajectory to orientation, bandwidth-limited | Feedback loop regulating adaptation |
+
+### Interpretation
+
+In this view:
+
+Intelligence is not transferred as a complete system. It is introduced as an orientation applied to an existing substrate.
+
+The resulting behavior emerges as a trajectory shaped by:
+
+- Substrate capabilities
+- Constraints
+- Time
+- Feedback
+
+### Interpretation Shift
+
+The Q-ODTI formulation reframes "drift" not as failure, but as:
+
+**deviation within a state stream that can be measured and navigated**
+
+This aligns with the current model:
+
+- Asymmetry introduces motion
+- Constraints shape it
+- Coupling stabilizes it
+
+### Relevance
+
+This interpretation suggests that:
+
+- Portable intelligence may function as streamed orientation rather than deployed models
+- Substrate design determines how much adaptation is possible post-deployment
+- Stability depends on how feedback is regulated, not just capability
+
+### Status
+
+This mapping is conceptual.
+
+It does not validate either model, but shows structural compatibility between:
+
+- A minimal primitive-based abstraction (this document)
+- A control-loop-based system model (Q-ODTI)
+
+---
+
+
 *Concept note created March 2026. Parked for future reference.*
